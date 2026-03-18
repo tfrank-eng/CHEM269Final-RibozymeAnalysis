@@ -1,2 +1,7 @@
 # CHEM269Final-RibozymeAnalysis
 CHEM 269 Final- Mapping a Mutational Ribozyme Fitness Landscape
+
+The goal of this assignment is to use high-throughput sequencing (HTS) data from a mutational scan of a ribozyme to identify which nucleotides are functionally important and which positions covary with each other. Students will analyze mutants of a ribozyme (and their associated activity or enrichment) to detect conserved positions, epistatic interactions, and covarying base pairs that likely contribute to the ribozyme’s secondary or tertiary structure. Biologically, ribozymes are RNA molecules that catalyze chemical reactions, and their function depends sensitively on specific nucleotides and base pairs. Students can map a functional landscape of the ribozyme and infer structural and mechanistic constraints. This connects HTS data analysis, RNA structure, and evolutionary/functional inference.
+
+I chose this problem because it sits at the intersection of RNA biochemistry, evolution, and quantitative data analysis, and it is directly inspired by modern experimental approaches to mapping sequence-function relationships. The assignment lets students work with realistic, noisy HTS data while still having a clear biological interpretation: understanding how a ribozyme sequence encodes its structure and activity. I am also personally interested in how covariation and mutational effects can reveal “hidden” structural features without directly solving a 3D structure. 
+
