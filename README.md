@@ -27,5 +27,7 @@ Secondary structure: Image from paper that data set was chosen from
 
 Ran in Colab, I deleted the first two rows of the excel files to make file analysis easier. Actual file I processed and uploaded is in this repo, titled "Kobori_ACIE_2016_Supporting_Data (2).csv"
 
+The biggest limitation is definitely our null hypothesis model, the multiplicativ model based on single mutants. It is likely more complex and not that simple to identify epistatic interactions, and the sequence coverage was very robust for single and double mutants. A mutational space of triple mutants would also be nice, but is difficult to achieve due to sequencing limitations. I was able to recover and known psuedoknot tertiary interaction, which is pretty cool!
+
    
 
