@@ -5,7 +5,7 @@ The goal of this assignment is to use high-throughput sequencing (HTS) data from
 
 I chose this problem because it sits at the intersection of RNA biochemistry, evolution, and quantitative data analysis, and it is directly inspired by modern experimental approaches to mapping sequence-function relationships. The assignment lets students work with realistic, noisy HTS data while still having a clear biological interpretation: understanding how a ribozyme sequence encodes its structure and activity. I am also personally interested in how covariation and mutational effects can reveal “hidden” structural features without directly solving a 3D structure. 
 
-Primary dataset: Kobori & Yokobayashi (2016), Angew. Chem. Int. Ed. - High-throughput mutational scan of Osa-1-4 twister ribozyme
+Primary dataset: Kobori & Yokobayashi (2016), Angew. Chem. Int. Ed. - High-throughput mutational scan of Osa-1-4 twister ribozyme (https://yokobayashilab.net/data.html)
 ​
 
 Complete matrix of relative activities for ALL single + double nucleotide mutants (48 positions mutated)
@@ -22,6 +22,7 @@ Secondary structure: Image from paper that data set was chosen from
 4. EPISTASIS → For each (i,j): expected_RA = mean_RA[i] × mean_RA[j]
                       epistasis = observed_RA - expected_RA
                       → Position-pair matrix → Heatmap
+Ran in Colab, I deleted the first two rows of the excel files to make file analysis easier. Actual file I processed and uploaded is in this repo. 
 
    
 
