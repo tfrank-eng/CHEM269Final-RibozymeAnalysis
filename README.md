@@ -20,8 +20,11 @@ Secondary structure: Image from paper that data set was chosen from
 2. SINGLE MUTANTS → Per-position: mean_RA, min_RA, sensitivity = 1-mean_RA
 3. PURINE/PYRIMIDINE → Classify mutations → avg_purine_RA vs avg_pyrimidine_RA per position
 4. EPISTASIS → For each (i,j): expected_RA = mean_RA[i] × mean_RA[j]
-                      epistasis = observed_RA - expected_RA
-                      → Position-pair matrix → Heatmap
+
+   epistasis = observed_RA - expected_RA
+
+   → Position-pair matrix → Heatmap
+
 Ran in Colab, I deleted the first two rows of the excel files to make file analysis easier. Actual file I processed and uploaded is in this repo, titled "Kobori_ACIE_2016_Supporting_Data (2).csv"
 
    
